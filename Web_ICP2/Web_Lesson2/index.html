@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--This is the index.html file-->
+<html>
+<head>
+    <title>Virat Kohli</title>
+    <!--In this i have used Embedded as well as Inline CSS-->
+    <style>
+        .un_style
+        {
+            list-style-type: circle;
+        }
+        .container
+        {
+            margin-left: 10%;
+            width: 80%;
+        }
+        body{
+            background-color: #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!--The tags h1,h2,h3,h4,h5,h6 are the headings tags and also they are block level elements-->
+<h1 style="text-align:center">Virat Kohli- The Legend of Modern Cricket Era</h1>
+    <div>
+<!--The anchor tag is an inline element-->
+        <a href="https://images.indianexpress.com/2019/08/kohli-759-4.jpg" target="_blank">
+            <img alt="" src="https://images.indianexpress.com/2019/08/kohli-759-4.jpg"
+                 width=100%>
+        </a>
+    </div>
+<h3> <div style="border: 1px solid black ; text-align:center; background-color: #4285f4; color: white" >Bio</div> </h3>
+
+<!-- p tag is used for paragraphs .It is a block level element-->
+<p><strong>Virat Kohli</strong>  born 5 November 1988,is an Indian cricketer who currently captains the India national team. A right-handed top-order batsman, Kohli is regarded as one of the best batsmen in the world.He plays for Royal Challengers Bangalore in the Indian Premier League (IPL), and has been the team's captain since 2013. Since October 2017, he has been the top-ranked ODI batsman in the world and is currently 2nd in Test rankings with 886 points.Among Indian batsmen, Kohli has the best ever Test rating (937 points), ODI rating (911 points) and T20I rating (897 points).
+    Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia. After a few months later, he made his ODI debut for India against Sri Lanka at the age of 19. Initially having played as a reserve batsman in the Indian team, he soon established himself as a regular in the ODI middle-order and was part of the squad that won the 2011 World Cup. He made his Test debut in 2011 and shrugged off the tag of "ODI specialist" by 2013 with Test hundreds in Australia and South Africa.Having reached the number one spot in the ICC rankings for ODI batsmen for the first time in 2013, Kohli also found success in the Twenty20 format, winning the Man of the Tournament twice at the ICC World Twenty20 (in 2014 and 2016). </p>
+<hr>
+    <!-- To get a horizontal ruler in my html page i have used hr tag. It is a block level element-->
+    <div style="float: left; margin-left: 30%; margin-right: 2%">
+        <!--The em ,strong tags are inline elements-->
+    <em><strong>Formats in Cricket</strong></em>
+        <!--The ol tag is used for ordered lists. It is Block level element-->
+<ol class="ol_style">
+    <!--The li tag implies the list item in the list. It is also an block level element-->
+    <li>Test</li>
+    <li>ODI</li>
+    <li>T20</li>
+</ol>
+</div>
+    <div style="margin-left: 50%">
+        <!--span tag is a inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes -->
+        <span><em><strong>Runs scored</strong></em></span>
+        <!--The ul tag is used for the creation of unordered list-->
+        <!--Have used css to change the shape of the bullet-->
+<ul class="un_style">
+    <li>Test:15000</li>
+    <li>ODI:12000</li>
+    <li>T20:6000</li>
+</ul>
+    </div>
+<div >
+    <h3>Displaying Youtube video using <em><u>iframe</u></em> tag</h3>
+    <!--The iframe is used for displaying a youtube video in HTML pages with controls as well, such as play, pause, stop-->
+<iframe width="100%" height="478" src="https://www.youtube.com/embed/pVWim2V0b0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+    <div>
+        <h3>Displaying local video using <em><u>video tag</u></em></h3>
+        <!--Used video tag to display a video from my local in the html pages with controls as well, such as play, pause, stop-->
+<video width="100%"  controls><source src="Web_ICP1.mov" type="video/mp4"></video>
+    </div>
+</div>
+</body>
+</html>
