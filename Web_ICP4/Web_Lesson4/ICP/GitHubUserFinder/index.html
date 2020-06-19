@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Github User Finder</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <h1 style="color: white; margin-top: 78px;
+    position: absolute;
+    margin-left: 42%;">GitHub Anyone!!!</h1>
+</header>
+<div id="container">
+    <div class="search">
+        <input id="username" placeholder="Enter a github username..." type="text"></input>
+    </div>
+    <div id="profile">
+        <h2></h2>
+        <div class="avatar">
+            <img id="imgavg">
+        </div>
+        <div class="information">
+            <table>
+                <tr>
+                    <td><em><b>Name:</b></em></td> <td><span id="txtname"></span></td>
+                </tr><tr>
+                <td><em><b>ID:</b></em></td> <td><span id="txtid"></span></td>
+            </tr>
+                <tr>
+                    <td><em><b>GitHub URL:</b></em></td> <td><a id="txturl"></a></td>
+            </tr><tr>
+                <td><em><b>Public Repositories:</b></em></td> <td><span id="txtrepository"></span></td>
+            </tr>
+                <tr>
+                    <td>
+                        <em><b>Bio:</b></em>
+                    </td>
+                    <td><span id="bio"></span></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <em><b>Created on:</b></em>
+                    </td>
+                    <td><span id="createtime"></span></td>
+                </tr>
+                <tr>
+                    <td>
+                        <em><b>Followers:</b></em>
+                    </td>
+                    <td><span id="follow"></span></td>
+                </tr>
+            </table>
+            <div>
+                <button type="button" class="refresh"><em><b>One More Profile? </b></em></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
