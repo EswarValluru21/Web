@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+</head>
+<body>
+<header>
+  <h1 style="margin-top: 78px;
+    position: absolute;
+    margin-left: 35%; color: white; font-size:50px;">To-Do List</h1>
+</header>
+<div class="container1">
+<form class="todoForm" (ngSubmit)="submitNewItem(todoContent)">
+  <div class="search floatLeft">
+<input type="text" name="newtodo" [(ngModel)]="todoContent">
+  </div>
+  <div>
+<button type="submit" class="refresh">add Item</button>
+  </div>
+
+</form>
+
+<form class="timeForm" (ngSubmit)="countDownTimer()">
+  <div class="countDownTimer">
+    <button type="submit" class="refresh marginLeft extra">Start</button>
+  <!--<input type="datetime-local" [(ngModel)]="dateTime" name="time" class="marginLeft">
+  <button type="submit" class="refresh-del marginLeft">Start</button>
+  <button type="button" (click)="pauseTimer()" class="refresh-del marginLeft2">Stop</button>-->
+    <div class="timerBox">
+      <p>{{days + 'd'}}</p>
+    </div>
+    <div class="timerBox">
+      <p>{{hrs + 'h'}}</p>
+    </div>
+    <div class="timerBox">
+      <p>{{mins + 'm'}}</p>
+    </div>
+    <div class="timerBox">
+      <p>{{secs + 's'}}</p>
+    </div>
+</div>
+</form>
+
+<div *ngIf="items.length > 0" class="allText">
+  <table class="tablewidth">
+  <div *ngFor="let item of items" class="tablediv">
+    <td class="pwidth floatLeft">{{item.content}}</td>
+    <td class="button-width"><button type="button" (click)="deleteItem(item.id)" class="refresh-del textB">Delete</button></td>
+    <td class="button-width"><button type="button" (click)="completeItem(item.id)" *ngIf="item.status" class="refresh-com textB">Complete</button></td>
+    <td class="button-width"><button type="button" (click)="pendingItem(item.id)" *ngIf="!item.status" class="refresh-pen textB">Pending</button></td>
+  </div>
+  </table>
+
+</div>
+</div>
+</body>
+</html>
