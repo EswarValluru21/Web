@@ -1,0 +1,175 @@
+.formstyle{
+    font-size: 20px;
+    background-color: black;
+    width: 800px;
+    height: 430px;
+    margin: 7em auto;
+    margin-top: 240px !important;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.signe {
+    padding-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+}
+.first{
+    margin-top: 20px;
+    margin-left: 116px;
+    /*width: 76%;*/
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.second
+{
+    margin-top:20px;
+    margin-left: 155px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.third{
+    margin-left: 116px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.fourth{
+    margin-left: 155px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.fifth{
+    margin-left: 116px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.six
+{
+    margin-left: 155px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.seven
+{
+    margin-left: 116px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid;
+    /*margin-bottom: 50px;*/
+    /*margin-left: 46px;*/
+    text-align: center;
+    /*margin-bottom: 27px;*/
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.signup{
+    position: absolute;
+    margin-top: -30px;
+    margin-left:  50%;
+    background-color: #866e2ad4;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 11%;
+}

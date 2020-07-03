@@ -1,0 +1,40 @@
+.lbl{
+    width: 41%;
+}
+
+.lblans{
+    width: 58%;
+}
+
+.floatLeft{
+    float: left;
+}
+
+.card{
+    background-color: black;
+    border-radius: 20px;
+    width: 35%;
+    color: white;
+}
+
+.places{
+    margin-bottom: 150px;
+    height: 200px;
+    margin-right: 24%;
+}
+
+.contact{
+    margin-left: 38%;
+    margin-bottom: 100px;
+}
+
+.contactimg
+{
+    position: absolute;
+    margin-left: 67%;
+    margin-top: -64px;
+}
+
+.card-title{
+    margin-top: 34px;
+}

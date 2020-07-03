@@ -1,0 +1,20 @@
+<div class="wholelogin">
+  <p class="sign" align="center" style="color: white;">Login</p>
+  <form [formGroup]="loginForm" (ngSubmit)="onFormSubmit(loginForm.value)" style="margin-top: 35px;">
+    <div>
+      <input class="un" id="username" placeholder="User name" type="text" align="center" formControlName="userName" #userName>
+      <i class="fa fa-user fa-lg position-absolute" style="font-size: 21px; margin-left: -30px; color:white; display: inline-block;vertical-align: bottom; height: 5px; margin-top: 10px;"></i>
+    </div>
+    <div>
+      <input  class="pass" id="password" placeholder="Password" type="password" align="center" formControlName="password" #password>
+      <i class="fa fa-lock fa-lg position-absolute" style="font-size: 21px; margin-left: -30px;display:inline-block; color:white; vertical-align: bottom; margin-top: 11px;"></i>
+    </div>
+    <div style="margin-top: 20px;">
+      <button type="submit" class="submit floatLeft">Login</button>
+    </div>
+    <div>
+      <button class="submit" [routerLink]="['/users']">New user?</button>
+    </div>
+  </form>
+</div>
+

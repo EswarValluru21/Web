@@ -1,0 +1,52 @@
+<div class="child-container">
+  <h2 class="myHeading"><b>Tourist Places Finder
+  </b></h2><br>
+  <h4 class="welcome"><b>Welcome {{name}}</b></h4>
+  <form [formGroup]="touristForm" class="guideform">
+    <div class="form-group">
+      <div class="form-group col-lg-6 col-lg-offset-3 input-group" style="float: left">
+        <div class="input-container" style="font-size: 24px; margin-left:34%;">
+          <i class="fa fa-map-marker stylemarker"></i>
+          <input class="first" type="text" placeholder="Place" style="width: 260px;" #place id="place">
+        </div>
+      </div>
+      <br>
+      <div>
+        <button (click)="getTouristPlaces()" class="btn btn primary col-lg-2 col-lg-offset-5  button hitme" type="button"><b>Hit Me !!!</b></button>
+      </div>
+      <div class="loopdiv" style="float: left">
+      <div *ngFor="let tplace of touristPlaces" style="color: white" class="col-lg-4">
+        <div class="card places">
+        <input type="text" style="display: none" #place_id id="place_id" value="{{tplace.place_id}}">
+          <input type="text" style="display: none" #place_name_hid id="place_name_hid" value="{{tplace.name}}">
+          <div class="card-body">
+            <h4 (click)="getReviews(place_id.value, place_name_hid.value)" class="card-title"><a><b><u>{{tplace.name}}</u></b></a></h4>
+            <input type="text" style="display: none" #place_name id="place_name" value="{{tplace.name}}">
+
+            <span class="card-text"><label class="lbl">Address:</label> <label class="lblans">{{tplace.formatted_address}}</label></span>
+            <span class="card-text"><label class="lbl">Ratings:</label><label class="lblans">{{tplace.user_ratings_total}}</label></span>
+            <br>
+            <label class="lbl">Types:</label>
+            <span *ngFor="let type of tplace.types" class="lblans">
+              <span class="card-text lblans">{{type}}</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="reviewsDiv" *ngIf="reviews">
+        <div style="margin-left: 81%;">
+          <img src="{{photos}}" height="100px" width="100px">
+        </div>
+        <h3 style="color: white; margin-top: -87px;">Reviews</h3>
+        <div *ngFor="let review of reviews" style="color: white; margin-bottom: 50px;">
+          <span><label class="lbl">Name:</label><label>{{review.author_name}}</label></span><br>
+          <span><label class="lbl">Ratings:</label><label> {{review.rating}}</label></span><br>
+          <span><label class="lbl">Time:</label><label>{{review.relative_time_description}}</label></span><br>
+          <span>{{review.text}}</span><br>
+          <span>{{review.author_url}}</span>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

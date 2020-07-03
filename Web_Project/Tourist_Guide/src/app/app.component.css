@@ -1,0 +1,7 @@
+.image{
+  /*height:60em; */
+  background-size:cover; width:100%;
+  background-image:url('../../images/bg3.jpg');
+  height: 1000px;
+  /*background-position:50% 50%;*/
+}

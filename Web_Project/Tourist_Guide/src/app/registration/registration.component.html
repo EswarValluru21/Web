@@ -1,0 +1,24 @@
+<div class="">
+
+  <form class="formstyle"  [formGroup]="registrationForm" (ngSubmit)="onFormSubmit(registrationForm.value)" method="post">
+    <p class="signe" align="center" >Registration</p>
+    <div class="row">
+      <input  class="first" type="text" id="firstName" placeholder="Firstname" formControlName="firstName">
+
+      <input class="second" type="text" id="lastName" placeholder="Lastname" formControlName="lastName">
+    </div>
+    <div class="row">
+      <input class="third" type="text" id="userName" placeholder="Username" formControlName="userName">
+      <input class="fourth" type="text" id="emailId" placeholder="Email" formControlName="emailId">
+    </div>
+    <div class="row">
+      <input  class="fifth" type="password" id="password" placeholder="password" formControlName="password">
+      <input class="six" type="password" id="reEnterPassword" placeholder="Re enter Password" formControlName="reEnterPassword">
+    </div>
+    <div class="row">
+      <input  class="seven" type="text" id="phoneNumber" placeholder="Phone Number" formControlName="phoneNumber">
+    </div>
+
+    <button class="signup" type="submit">Sign Up</button>
+  </form>
+</div>
