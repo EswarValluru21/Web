@@ -1,0 +1,34 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Pizza App</string>
+<string name="action_settings">Settings</string>
+<!-- Strings used for fragments for navigation -->
+<string name="first_fragment_label">First Fragment</string>
+<string name="second_fragment_label">Second Fragment</string>
+<string name="next">Next</string>
+<string name="previous">Previous</string>
+
+
+<string name="coffees">MENU</string>
+<string name="username">Enter your name</string>
+<string name="flavor">Opt your flavor:</string>
+<string name="frappuccino">FRAPPUCCINO</string>
+<string name="hot_chocolate_mocha">HOT CHOCOLATE MOCHA</string>
+<string name="cold_coffee">COLD COFFEE</string>
+<string name="hot_coffee">HOT COFFEE</string>
+<string name="white_chocolate_mocha">WHITE CHOCOLATE MOCHA</string>
+<string name="quantity_field">Quantity:</string>
+<string name="initial_quantity_value">1</string>
+
+<!-- For Coffee Order Summary -->
+<string name="order_summary_name">Name:<xliff:g id="name" example="Eswar">%s</xliff:g></string>
+<string name="os_frappuccino"><b>FRAPPUCCINO: </b><xliff:g id="addFrappuccino" example="Yes">%s</xliff:g></string>
+<string name="os_hot_chocolate_mocha"><b>HOT CHOCOLATE MOCHA: </b><xliff:g id="addHotChoc" example="Yes">%s</xliff:g></string>
+<string name="os_cold_coffee"><b>COLD COFFEE: </b><xliff:g id="addColdCoffee" example="yes">%s</xliff:g></string>
+<string name="os_hot_coffee"><b>HOT COFFEE: </b><xliff:g id="addHotCoffee" example="yes">%s</xliff:g></string>
+<string name="os_white_chocolate_mocha"><b>WHITE CHOCOLATE MOCHA: </b><xliff:g id="addWhiteChoc" example="yes">%s</xliff:g></string>
+<string name="order_summary_quantity"><b>Quantity: </b><xliff:g id="quantity" example="1">%d</xliff:g></string>
+<string name="order_summary_total_price"><b>Total: </b>$ <xliff:g id="price" example="$10">%.2f</xliff:g></string>
+<string name="thank_you"><b>Thank you! Order Again...</b></string>
+
+<string name="summaryMessage"><u>Your Order Summary</u></string>
+</resources>
