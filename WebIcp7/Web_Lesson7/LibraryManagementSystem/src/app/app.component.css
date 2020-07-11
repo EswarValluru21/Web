@@ -1,0 +1,5 @@
+.image {
+  background-image: url('book.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

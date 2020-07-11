@@ -1,0 +1,23 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+  overflow: auto;
+}
+
+.isbn-col {
+  flex: 0 0 100px !important;
+  white-space: unset !important;
+}
+.isbn-col:hover{
+  cursor:grab;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+
+.colorplus{
+  background-color: #731a06 !important;
+}
