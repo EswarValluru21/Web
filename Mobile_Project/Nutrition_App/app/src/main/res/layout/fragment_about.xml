@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22393E"
+    tools:context="mobile.nutrition_app.AboutFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/about_logo"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/fork" />
+
+        <TextView
+            android:id="@+id/nutrition_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+
+            android:text="NUTRITION APPLICATION"
+            android:textColor="@color/colorWhite"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_vertical|center_horizontal"
+            android:text="Eat Healthy - Stay Fit"
+            android:textAllCaps="true"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/vandith_about"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/linearlay"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/vandith_pic"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/vandith_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/vandith_about"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/vandith_about"
+        android:text="Vandith Thotla"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/vandith_desig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vandith_name"
+        android:layout_alignTop="@+id/vandith_name"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/vandith_about"
+        android:text="Chair Person"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vandith_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vandith_desig"
+        android:layout_alignTop="@+id/vandith_desig"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/vandith_about"
+        android:text="925-329-abcd"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vandith_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vandith_phone"
+        android:layout_alignTop="@+id/vandith_phone"
+        android:layout_alignBottom="@+id/vandith_about"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/vandith_about"
+        android:text="vandith.thotla@gmail.com"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/eswar_about"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/vandith_about"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/eswar_pic"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/eswar_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/eswar_about"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/eswar_about"
+        android:text="Eswar Valluru"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/eswar_desig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eswar_name"
+        android:layout_alignTop="@+id/eswar_name"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/eswar_about"
+        android:text="General Manager"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eswar_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eswar_desig"
+        android:layout_alignTop="@+id/eswar_desig"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/eswar_about"
+        android:text="816-531-abcd"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/eswar_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eswar_phone"
+        android:layout_alignTop="@+id/eswar_phone"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/eswar_about"
+        android:text="eswar.valluru@gmail.com"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/jas_about"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/vish_about"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/jaswanth_pic"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/jas_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/jas_about"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/jas_about"
+        android:text="Sai Jaswanth Gattidi"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/jas_desig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jas_name"
+        android:layout_alignTop="@+id/jas_name"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/jas_about"
+        android:text="Finance Manager"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jas_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jas_desig"
+        android:layout_alignTop="@+id/jas_desig"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/jas_about"
+        android:text="816-703-abcd"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jas_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jas_phone"
+        android:layout_alignTop="@+id/jas_phone"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/jas_about"
+        android:text="jaswanth.gattidi@gmail.com"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/vish_about"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/eswar_about"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/vishnu_pic"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/vish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/vish_about"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/vish_about"
+        android:text="Vishnu Vardhan Manne"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/vish_desig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vish_name"
+        android:layout_alignTop="@+id/vish_name"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/vish_about"
+        android:text="CRM"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vish_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vish_desig"
+        android:layout_alignTop="@+id/vish_desig"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/vish_about"
+        android:text="816-663-abcd"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vish_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vish_phone"
+        android:layout_alignTop="@+id/vish_phone"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/vish_about"
+        android:text="vishnu.manne@gmail.com"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
